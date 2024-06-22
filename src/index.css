@@ -1,0 +1,94 @@
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid;
+  text-align: center;
+  background-color: hwb(0 100% 0%);
+  border-radius: 10px;
+}
+
+.card{
+  border: 1px solid hsla(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  background-color: hwb(0 100% 0%);
+}
+
+.card .selectBox{
+  margin-right: 8px;
+  background-color: hwb(0 100% 0%);
+}
+
+.card .cardText{
+  font-family: Arial, sans-serif;
+  color: (0,0,30);
+  font-size: large;
+  border: 0px;
+  background-color: transparent;
+  
+}
+.card .cardButtons{
+  align-items: center;
+  gap: 14px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.cardButtonItem {
+  transition: 0.2s;
+}
+.image {
+    max-width: 32px;
+    max-height: 32px;
+}
+
+.button{
+  background-color: hsl(227, 100%, 50%);
+  color: white;
+  cursor: pointer;
+  margin-left: 6px;
+  border: 1px solid hsla(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 12px;
+  text-align: center;
+}
+
+.inputButtons{
+  margin: 10px;
+  display: inline-block;
+}
+
+.textInput{
+  border: 1px solid hsla(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 12px;
+  text-align: center;
+  margin-bottom: 4px;
+  background-color: hwb(0 100% 0%);
+}
+.editInput{
+  font-family: Arial, sans-serif;
+  color: (0,0,30);
+  font-size: large;
+  border: 0px;
+  background-color: transparent;
+}
+body{
+  background-color: hsl(180, 100%, 95%);
+}
+
+ul{
+  padding: 0px;
+  margin: 0px;
+}
+
